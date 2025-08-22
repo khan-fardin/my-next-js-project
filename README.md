@@ -19,3 +19,24 @@ It demonstrates a clean landing page, product listing, dynamic product details, 
 - [Next.js 15 (App Router)](https://nextjs.org/)
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
+---
+
+## ⚡ Getting Started
+
+1. Clone the repo
+```bash
+git clone https://github.com/your-username/booknest.git
+cd booknest
+2. Install dependencies
+npm install
+3. Run the dev server
+npm run dev
+---
+## 📂 Project Structure
+src/app/
+├── page.jsx # Landing page
+├── products/
+│ ├── page.jsx # Products list
+│ └── [id]/page.jsx # Product details
+├── login/page.jsx # Login page
+└── register/page.jsx # Register page (optional)
