@@ -7,6 +7,7 @@ const Navbar = () => {
     const links = <>
         <li><Link href='/'>Home</Link></li>
         <li><Link href='/products'>Products</Link></li>
+        <li><Link href='/addBooks'>Add Books</Link></li>
     </>
 
     return (
@@ -22,9 +23,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="" href='/'>
-                    <Logo />
-                </a>
+                <Logo />
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
